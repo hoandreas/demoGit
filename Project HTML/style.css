@@ -1,0 +1,21 @@
+.header {
+    background-color: peachpuff;
+    text-align: center;
+    font-family: Arial;
+    border-color: aquamarine;
+}
+.body {
+    background-image: url('/Users/AndrewHo/Documents/Project HTML/img/676416.jpg');
+    
+}
+.form {
+    text-align: center;
+    background-color: pink;
+    border-color: aquamarine;
+    border: 2px;
+    
+}
+.welcome {
+    text-align: center;
+    font-family: Arial;
+}

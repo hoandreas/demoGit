@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>form</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body class="form">
+            <form action=welcome.html method="POST">
+                    <fieldset>
+                      <legend>Personal Information</legend>
+                      <p>
+                        <label for="full-name">Full Name</label>
+                        <input id="full-name" name="fullName" type="text">
+                      </p>
+                      <p>
+                        <label for="email">Email Address</label>
+                        <input id="email" name="email" type="email">
+                      </p>
+                            <label for="gender">Gender:</label>
+                            <input id="male-radio" type="radio" name="gender" value="male">
+                            <label for="male-radio">Male</label>
+                            <input id="female-radio" type="radio" name="gender" value="female">
+                            <label for="female-radio">Female</label>
+                        <p>
+                            <label for="moves">Your favorite Milotic's move?</label>
+                            <input type="text" name="moves" list="movelist">
+                            <datalist id="movelist">
+                                <select name="altmovelist">
+                                    <option value="Scald">Scald</option>
+                                    <option value="Ice Beam">Ice Beam</option>
+                                    <option value="Recover">Recover</option>
+                                    <option value="Aqua Ring">Aqua Ring</option>
+                                    <option value="Toxic">Toxic</option>
+                                    <option value="Hidden Power">Hidden Power</option>
+                                    <option value="Hydro Pump">Hydro Pump</option>
+                                    <option value="Disarming Voice">Disarming Voice</option>
+                                    <option value="Aqua Tail">Aqua Tail</option>
+                                    <option value="Dragon Tail">Dragon Tail</option>
+                                    <option value="Dragon Pulse">Dragon Pulse</option>
+                                </select>
+                            </datalist>
+                        </p>    
+                        <input type="submit" value="Join">
+                    </fieldset>
+                 </form>       
+    </body>
+    
+</html>
